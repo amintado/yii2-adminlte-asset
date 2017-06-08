@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace airani\widgets;
+namespace amintado\widgets;
 
 use \yii\bootstrap\Alert as BootstrapAlert;
 use \yii\bootstrap\Widget;
