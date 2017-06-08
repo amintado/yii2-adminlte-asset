@@ -1,5 +1,5 @@
 {
-    "name": "airani/yii2-adminlte-asset",
+    "name": "amintado/yii2-adminlte-asset",
     "description": "Backend theme for Yii2 Framework (RTL)",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","adminlte", "rtl", "adminlte-rtl"],
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "airani\\": ""
+            "amintado\\": ""
         }
     },
     "extra": {
