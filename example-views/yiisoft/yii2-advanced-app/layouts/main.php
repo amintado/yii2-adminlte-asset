@@ -9,7 +9,7 @@ if (Yii::$app->controller->action->id === 'login') {
         ['content' => $content]
     );
 } else {
-    airani\web\AdminLteAsset::register($this);
+    amintado\web\AdminLteAsset::register($this);
     backend\assets\AppAsset::register($this);
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@bower') . '/admin-lte-rtl/dist';
     ?>
