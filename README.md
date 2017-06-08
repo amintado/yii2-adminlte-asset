@@ -1,7 +1,6 @@
 AdminLTE Asset Bundle (RTL)
 ===========================
 
-*Backend UI for Yii2 Framework, based on [AdminLTE RTL](https://github.com/airani/AdminLTE)*
 
 This package contains an [Asset Bundle for Yii 2.0 Framework](http://www.yiiframework.com/doc-2.0/guide-structure-assets.html) 
 which registers the CSS files for the **AdminLTE (RTL Version)** user-interface.
@@ -17,7 +16,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install AdminLTE v1 run:
 
 ```
-php composer.phar require airani/yii2-adminlte-asset "1.*"
+php composer.phar require amintado/yii2-adminlte-asset "1.*"
 ```
 
 > #### Note! 
@@ -26,7 +25,7 @@ php composer.phar require airani/yii2-adminlte-asset "1.*"
 To install AdminLTE v2 run:
 
 ```
-php composer.phar require airani/yii2-adminlte-asset "2.*@beta"
+php composer.phar require amintado/yii2-adminlte-asset "2.*@beta"
 ```
 
 
@@ -42,7 +41,7 @@ For [Yii 2 Advanced Application Template](https://github.com/yiisoft/yii2-app-ad
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/airani/yii2-adminlte-asset/example-views/yiisoft/yii2-advanced-app'
+                '@app/views' => '@vendor/amintado/yii2-adminlte-asset/example-views/yiisoft/yii2-advanced-app'
              ],
          ],
     ],
@@ -57,7 +56,7 @@ For [Yii 2 Basic Application Template](https://github.com/yiisoft/yii2-app-basic
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/airani/yii2-adminlte-asset/example-views/yiisoft/yii2-basic-app'
+                '@app/views' => '@vendor/amintado/yii2-adminlte-asset/example-views/yiisoft/yii2-basic-app'
              ],
          ],
     ],
@@ -73,7 +72,7 @@ For [Phundament 4](https://github.com/phundament/app)
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@app/views' => '@vendor/airani/yii2-adminlte-asset/example-views/phundament/app'
+                '@app/views' => '@vendor/amintado/yii2-adminlte-asset/example-views/phundament/app'
             ],
         ],
     ],
@@ -96,5 +95,5 @@ By default the extension uses black skin for AdminLTE. You can change this. Just
 To fix all menu, add `fixed` class to `body` element.
 
 
-> Namespacing rules follow the Yii 2.0 framework structure, eg. `airani\web` for the Asset Bundle.
+> Namespacing rules follow the Yii 2.0 framework structure, eg. `amintado\web` for the Asset Bundle.
  
